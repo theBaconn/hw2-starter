@@ -7,5 +7,7 @@ val to_us_format : int * int * int -> int * int * int
 val pow : int -> int -> int
 val fac : int -> int
 val get_nth : int * 'a list -> 'a
+val iter_list : 'a list -> int
 val larger : 'a list -> 'a list -> 'a list
+val sum_list : int list -> int
 val sum : int list -> int list -> int
